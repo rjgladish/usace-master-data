@@ -1,0 +1,147 @@
+manifest:
+ glossaries:
+  CECW-11-2-220:
+   - source:       "glossaries/CivilWorks/CECW-11-2-220.yaml"
+   - rdf:          "glossaries/CivilWorks/CECW-11-2-220.ttl"
+   - doc:          "glossaries/CivilWorks/CECW-11-2-220-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CECW-11-2-220-ttl.html"
+  CECW-1165-2-218:
+   - source:       "glossaries/CivilWorks/CECW-1165-2-218.yaml"
+   - rdf:          "glossaries/CivilWorks/CECW-1165-2-218.ttl"
+   - doc:          "glossaries/CivilWorks/CECW-1165-2-218-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CECW-1165-2-218-ttl.html"
+  CESI-P:
+   - source:       "glossaries/CivilWorks/CESI-P.yaml"
+   - rdf:          "glossaries/CivilWorks/CESI-P.ttl"
+   - doc:          "glossaries/CivilWorks/CESI-P-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CESI-P-ttl.html"
+  CFR-33-203-15:
+   - source:       "glossaries/CivilWorks/CFR-33-203-15.yaml"
+   - rdf:          "glossaries/CivilWorks/CFR-33-203-15.ttl"
+   - doc:          "glossaries/CivilWorks/CFR-33-203-15-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CFR-33-203-15-ttl.html"
+  CFR-33-238-4:
+   - source:       "glossaries/CivilWorks/CFR-33-238-4.yaml"
+   - rdf:          "glossaries/CivilWorks/CFR-33-238-4.ttl"
+   - doc:          "glossaries/CivilWorks/CFR-33-238-4-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CFR-33-238-4-ttl.html"
+  CFR-33-242-4:
+   - source:       "glossaries/CivilWorks/CFR-33-242-4.yaml"
+   - rdf:          "glossaries/CivilWorks/CFR-33-242-4.ttl"
+   - doc:          "glossaries/CivilWorks/CFR-33-242-4-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CFR-33-242-4-ttl.html"
+  CFR-33-245-5:
+   - source:       "glossaries/CivilWorks/CFR-33-245-5.yaml"
+   - rdf:          "glossaries/CivilWorks/CFR-33-245-5.ttl"
+   - doc:          "glossaries/CivilWorks/CFR-33-245-5-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CFR-33-245-5-ttl.html"
+  CFR-33-277-4:
+   - source:       "glossaries/CivilWorks/CFR-33-277-4.yaml"
+   - rdf:          "glossaries/CivilWorks/CFR-33-277-4.ttl"
+   - doc:          "glossaries/CivilWorks/CFR-33-277-4-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CFR-33-277-4-ttl.html"
+  CFR-33-321-2:
+   - source:       "glossaries/CivilWorks/CFR-33-321-2.yaml"
+   - rdf:          "glossaries/CivilWorks/CFR-33-321-2.ttl"
+   - doc:          "glossaries/CivilWorks/CFR-33-321-2-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CFR-33-321-2-ttl.html"
+  CFR-33-322-2:
+   - source:       "glossaries/CivilWorks/CFR-33-322-2.yaml"
+   - rdf:          "glossaries/CivilWorks/CFR-33-322-2.ttl"
+   - doc:          "glossaries/CivilWorks/CFR-33-322-2-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CFR-33-322-2-ttl.html"
+  CFR-33-323-2:
+   - source:       "glossaries/CivilWorks/CFR-33-323-2.yaml"
+   - rdf:          "glossaries/CivilWorks/CFR-33-323-2.ttl"
+   - doc:          "glossaries/CivilWorks/CFR-33-323-2-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CFR-33-323-2-ttl.html"
+  CFR-33-324-2:
+   - source:       "glossaries/CivilWorks/CFR-33-324-2.yaml"
+   - rdf:          "glossaries/CivilWorks/CFR-33-324-2.ttl"
+   - doc:          "glossaries/CivilWorks/CFR-33-324-2-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CFR-33-324-2-ttl.html"
+  CFR-33-327-3:
+   - source:       "glossaries/CivilWorks/CFR-33-327-3.yaml"
+   - rdf:          "glossaries/CivilWorks/CFR-33-327-3.ttl"
+   - doc:          "glossaries/CivilWorks/CFR-33-327-3-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CFR-33-327-3-ttl.html"
+  CFR-33-328-3:
+   - source:       "glossaries/CivilWorks/CFR-33-328-3.yaml"
+   - rdf:          "glossaries/CivilWorks/CFR-33-328-3.ttl"
+   - doc:          "glossaries/CivilWorks/CFR-33-328-3-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CFR-33-328-3-ttl.html"
+  CFR-33-329-4:
+   - source:       "glossaries/CivilWorks/CFR-33-329-4.yaml"
+   - rdf:          "glossaries/CivilWorks/CFR-33-329-4.ttl"
+   - doc:          "glossaries/CivilWorks/CFR-33-329-4-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CFR-33-329-4-ttl.html"
+  CFR-33-330-2:
+   - source:       "glossaries/CivilWorks/CFR-33-330-2.yaml"
+   - rdf:          "glossaries/CivilWorks/CFR-33-330-2.ttl"
+   - doc:          "glossaries/CivilWorks/CFR-33-330-2-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CFR-33-330-2-ttl.html"
+  CFR-33-331-2:
+   - source:       "glossaries/CivilWorks/CFR-33-331-2.yaml"
+   - rdf:          "glossaries/CivilWorks/CFR-33-331-2.ttl"
+   - doc:          "glossaries/CivilWorks/CFR-33-331-2-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CFR-33-331-2-ttl.html"
+  CFR-33-332-2:
+   - source:       "glossaries/CivilWorks/CFR-33-332-2.yaml"
+   - rdf:          "glossaries/CivilWorks/CFR-33-332-2.ttl"
+   - doc:          "glossaries/CivilWorks/CFR-33-332-2-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CFR-33-332-2-ttl.html"
+  CFR-33-334-2:
+   - source:       "glossaries/CivilWorks/CFR-33-334-2.yaml"
+   - rdf:          "glossaries/CivilWorks/CFR-33-334-2.ttl"
+   - doc:          "glossaries/CivilWorks/CFR-33-334-2-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CFR-33-334-2-ttl.html"
+  CFR-33-335-7:
+   - source:       "glossaries/CivilWorks/CFR-33-335-7.yaml"
+   - rdf:          "glossaries/CivilWorks/CFR-33-335-7.ttl"
+   - doc:          "glossaries/CivilWorks/CFR-33-335-7-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/CFR-33-335-7-ttl.html"
+  DoDI-4165-14:
+   - source:       "glossaries/CivilWorks/DoDI-4165-14.yaml"
+   - rdf:          "glossaries/CivilWorks/DoDI-4165-14.ttl"
+   - doc:          "glossaries/CivilWorks/DoDI-4165-14-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/DoDI-4165-14-ttl.html"
+  DoDI-5015-02:
+   - source:       "glossaries/CivilWorks/DoDI-5015-02.yaml"
+   - rdf:          "glossaries/CivilWorks/DoDI-5015-02.ttl"
+   - doc:          "glossaries/CivilWorks/DoDI-5015-02-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/DoDI-5015-02-ttl.html"
+  EM-1110-1-1005:
+   - source:       "glossaries/CivilWorks/EM-1110-1-1005.yaml"
+   - rdf:          "glossaries/CivilWorks/EM-1110-1-1005.ttl"
+   - doc:          "glossaries/CivilWorks/EM-1110-1-1005-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/EM-1110-1-1005-ttl.html"
+  EM-1110-2-1416:
+   - source:       "glossaries/CivilWorks/EM-1110-2-1416.yaml"
+   - rdf:          "glossaries/CivilWorks/EM-1110-2-1416.ttl"
+   - doc:          "glossaries/CivilWorks/EM-1110-2-1416-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/EM-1110-2-1416-ttl.html"
+  ER-1110-2-1156:
+   - source:       "glossaries/CivilWorks/ER-1110-2-1156.yaml"
+   - rdf:          "glossaries/CivilWorks/ER-1110-2-1156.ttl"
+   - doc:          "glossaries/CivilWorks/ER-1110-2-1156-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/ER-1110-2-1156-ttl.html"
+  ER-1110-2-1302:
+   - source:       "glossaries/CivilWorks/ER-1110-2-1302.yaml"
+   - rdf:          "glossaries/CivilWorks/ER-1110-2-1302.ttl"
+   - doc:          "glossaries/CivilWorks/ER-1110-2-1302-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/ER-1110-2-1302-ttl.html"
+  ER-1110-2-240:
+   - source:       "glossaries/CivilWorks/ER-1110-2-240.yaml"
+   - rdf:          "glossaries/CivilWorks/ER-1110-2-240.ttl"
+   - doc:          "glossaries/CivilWorks/ER-1110-2-240-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/ER-1110-2-240-ttl.html"
+  ER-37-1-30-P12:
+   - source:       "glossaries/CivilWorks/ER-37-1-30-P12.yaml"
+   - rdf:          "glossaries/CivilWorks/ER-37-1-30-P12.ttl"
+   - doc:          "glossaries/CivilWorks/ER-37-1-30-P12-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/ER-37-1-30-P12-ttl.html"
+  ER-5-1-11:
+   - source:       "glossaries/CivilWorks/ER-5-1-11.yaml"
+   - rdf:          "glossaries/CivilWorks/ER-5-1-11.ttl"
+   - doc:          "glossaries/CivilWorks/ER-5-1-11-doc.html"
+   - rdf-doc:      "glossaries/CivilWorks/ER-5-1-11-ttl.html"

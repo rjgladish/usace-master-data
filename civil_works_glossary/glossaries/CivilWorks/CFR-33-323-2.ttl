@@ -122,13 +122,13 @@ CFR-33-323-2: a wov:Glossary,
         skos:ConceptScheme,
         voaf:Vocabulary ;
     rdfs:label "Code of Federal Regulations - Title 33, Chapter-II, Part 323, Section-323.2" ;
-    dcterms:created "2024-07-16T04:24:08.498849+00:00"^^xsd:dateTime ;
-    dcterms:description "None" ;
-    dcterms:publisher "None" ;
+    dcterms:created "2024-08-20T18:49:21.015699+00:00"^^xsd:dateTime ;
+    dcterms:description "33-CFR-323.2 Term definitions are applicable throughout part 323" ;
+    dcterms:publisher "U.S. Federal Register, National Archives and Records Administration's Office of the Federal Register, and Goverment Publishing Office" ;
     dcterms:rights "MIT" ;
     dcterms:title "Code of Federal Regulations - Title 33, Chapter-II, Part 323, Section-323.2" ;
     pav:ImportedFrom "glossaries/CivilWorks/CFR-33-323-2.yaml" ;
-    pav:createdOn "2024-07-16T04:24:08.498849+00:00"^^xsd:dateTime ;
+    pav:createdOn "2024-08-20T18:49:21.015699+00:00"^^xsd:dateTime ;
     pav:createdWith "gloss" ;
     pav:wasInfluencedBy "33 CFR 323.2" ;
     vann:preferredNamespaceUri "https://usace-data.com/civil-works/glossary/CFR-33-323-2#" ;

@@ -339,13 +339,13 @@ ER-5-1-11: a wov:Glossary,
         skos:ConceptScheme,
         voaf:Vocabulary ;
     rdfs:label "Engineering Report 5-1-11 USACE Business Process" ;
-    dcterms:created "2024-07-16T04:27:22.900695+00:00"^^xsd:dateTime ;
+    dcterms:created "2024-08-20T18:50:59.598187+00:00"^^xsd:dateTime ;
     dcterms:description "USACE Business Process Engineering Report 5-1-11, defines various acronyms and terms commonly used in this report to describe policy and doctrine used to accomplish business processes across the U.S. Army Corps of Engineers (USACE). These terms are defined in the glossary section of the regulation." ;
-    dcterms:publisher "None" ;
+    dcterms:publisher "Department of the Army, U.S. Army Corps of Engineers" ;
     dcterms:rights "MIT" ;
     dcterms:title "Engineering Report 5-1-11 USACE Business Process" ;
     pav:ImportedFrom "glossaries/CivilWorks/ER-5-1-11.yaml" ;
-    pav:createdOn "2024-07-16T04:27:22.900695+00:00"^^xsd:dateTime ;
+    pav:createdOn "2024-08-20T18:50:59.598187+00:00"^^xsd:dateTime ;
     pav:createdWith "gloss" ;
     pav:wasInfluencedBy "Engineering Report 5-1-11 USACE Business Process" ;
     vann:preferredNamespaceUri "https://usace-data.com/civil-works/glossary/ER-5-1-11#" ;

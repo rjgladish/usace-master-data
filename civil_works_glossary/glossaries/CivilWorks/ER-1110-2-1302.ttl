@@ -354,13 +354,13 @@ ER-1110-2-1302: a wov:Glossary,
         skos:ConceptScheme,
         voaf:Vocabulary ;
     rdfs:label "Engineering and Design Civil Works Cost Engineering Regulation No. 1110-2-1302" ;
-    dcterms:created "2024-07-16T04:26:52.994309+00:00"^^xsd:dateTime ;
+    dcterms:created "2024-08-20T18:50:45.783590+00:00"^^xsd:dateTime ;
     dcterms:description "The Civil Works Engineering and Design Report defines various acronyms and terms commonly used in this regulation n to describe phases, types, and parts of cost products. These terms are defined in the glossary section of the regulation." ;
-    dcterms:publisher "None" ;
+    dcterms:publisher "Department of the Army, U.S. Army Corps of Engineers" ;
     dcterms:rights "MIT" ;
     dcterms:title "Engineering and Design Civil Works Cost Engineering Regulation No. 1110-2-1302" ;
     pav:ImportedFrom "glossaries/CivilWorks/ER-1110-2-1302.yaml" ;
-    pav:createdOn "2024-07-16T04:26:52.994309+00:00"^^xsd:dateTime ;
+    pav:createdOn "2024-08-20T18:50:45.783590+00:00"^^xsd:dateTime ;
     pav:createdWith "gloss" ;
     pav:wasInfluencedBy "Engineering and Design Civil Works Cost Engineering RegulationNo. 1110-2-1302 " ;
     vann:preferredNamespaceUri "https://usace-data.com/civil-works/glossary/ER-1110-2-1302#" ;

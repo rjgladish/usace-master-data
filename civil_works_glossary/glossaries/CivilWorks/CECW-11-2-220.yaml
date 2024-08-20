@@ -4,12 +4,15 @@ about:
     template: glossary
     title: Civil Works Direct Program Development Policy Guidance CECW-IP No. 11-2-220
     description: The Civil Works Direct Program Development Policy Guidance (Circular CECW-IP No. 11-2-220) 
-      defines various acronyms and terms commonly used in this circular to describe policie guidance,
+      defines various acronyms and terms commonly used in this circular to describe policy guidance,
       budget activities and allocation strategy. These terms are defined in the glossary section of the circular.
+    publisher: Department of the Army, U.S. Army Corps of Engineers
     source:
         sourceID: CECW-11-2-220
         authoritativeSource: Civil Works Direct Program Development Policy Guidance CECW-IP No. 11-2-220
         glossaryReferences: true
+        description: The Civil Works Direct Program Development Policy Guidance (Circular CECW-IP No. 11-2-220) 
+         circular to describes policy guidance, budget activities and allocation strategy.
         url: https://www.publications.usace.army.mil/Portals/76/Users/182/86/2486/EC_11-2-220.pdf
         anchor: '271'
         linkType: pdf

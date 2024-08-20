@@ -3,6 +3,8 @@ about:
     prefix: CFR-33-323-2
     template: glossary
     title:  Code of Federal Regulations - Title 33, Chapter-II, Part 323, Section-323.2
+    publisher: "U.S. Federal Register, National Archives and Records Administration's Office of the Federal Register, and Goverment Publishing Office"
+    description: "33-CFR-323.2 Term definitions are applicable throughout part 323"
     source:
         linkType: cfr
         sourceID: CFR-33-323-2

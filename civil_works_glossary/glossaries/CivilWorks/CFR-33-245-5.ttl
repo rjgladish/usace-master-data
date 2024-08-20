@@ -59,13 +59,13 @@ CFR-33-245-5: a wov:Glossary,
         skos:ConceptScheme,
         voaf:Vocabulary ;
     rdfs:label "Code of Federal Regulations - Title 33, Chapter-II, Part 245, Section-245.5" ;
-    dcterms:created "2024-07-16T04:23:31.452796+00:00"^^xsd:dateTime ;
+    dcterms:created "2024-08-20T18:49:00.986616+00:00"^^xsd:dateTime ;
     dcterms:description "33-CFR-245.5 Term definitions are applicable throughout part 245" ;
-    dcterms:publisher "None" ;
+    dcterms:publisher "U.S. Federal Register, National Archives and Records Administration's Office of the Federal Register, and Goverment Publishing Office" ;
     dcterms:rights "MIT" ;
     dcterms:title "Code of Federal Regulations - Title 33, Chapter-II, Part 245, Section-245.5" ;
     pav:ImportedFrom "glossaries/CivilWorks/CFR-33-245-5.yaml" ;
-    pav:createdOn "2024-07-16T04:23:31.452796+00:00"^^xsd:dateTime ;
+    pav:createdOn "2024-08-20T18:49:00.986616+00:00"^^xsd:dateTime ;
     pav:createdWith "gloss" ;
     pav:wasInfluencedBy "33 CFR 245.5 Definitions" ;
     vann:preferredNamespaceUri "https://usace-data.com/civil-works/glossary/CFR-33-245-5#" ;

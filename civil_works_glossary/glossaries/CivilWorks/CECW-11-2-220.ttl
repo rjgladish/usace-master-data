@@ -531,13 +531,13 @@ CECW-11-2-220: a wov:Glossary,
         skos:ConceptScheme,
         voaf:Vocabulary ;
     rdfs:label "Civil Works Direct Program Development Policy Guidance CECW-IP No. 11-2-220" ;
-    dcterms:created "2024-07-16T04:22:43.789240+00:00"^^xsd:dateTime ;
-    dcterms:description "The Civil Works Direct Program Development Policy Guidance (Circular CECW-IP No. 11-2-220) defines various acronyms and terms commonly used in this circular to describe policie guidance, budget activities and allocation strategy. These terms are defined in the glossary section of the circular." ;
-    dcterms:publisher "None" ;
+    dcterms:created "2024-08-20T18:59:29.555335+00:00"^^xsd:dateTime ;
+    dcterms:description "The Civil Works Direct Program Development Policy Guidance (Circular CECW-IP No. 11-2-220) defines various acronyms and terms commonly used in this circular to describe policy guidance, budget activities and allocation strategy. These terms are defined in the glossary section of the circular." ;
+    dcterms:publisher "Department of the Army, U.S. Army Corps of Engineers" ;
     dcterms:rights "MIT" ;
     dcterms:title "Civil Works Direct Program Development Policy Guidance CECW-IP No. 11-2-220" ;
     pav:ImportedFrom "glossaries/CivilWorks/CECW-11-2-220.yaml" ;
-    pav:createdOn "2024-07-16T04:22:43.789240+00:00"^^xsd:dateTime ;
+    pav:createdOn "2024-08-20T18:59:29.555335+00:00"^^xsd:dateTime ;
     pav:createdWith "gloss" ;
     pav:wasInfluencedBy "Civil Works Direct Program Development Policy Guidance CECW-IP No. 11-2-220" ;
     vann:preferredNamespaceUri "https://usace-data.com/civil-works/glossary/CECW-11-2-220#" ;

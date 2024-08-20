@@ -430,13 +430,13 @@ CESI-P-5-5-15: a wov:Glossary,
         skos:ConceptScheme,
         voaf:Vocabulary ;
     rdfs:label "U.S. ARMY CORPS OF ENGINEERS STRATEGIC MANAGEMENT CESI-P No. 5-5-15" ;
-    dcterms:created "2024-07-16T04:22:59.561506+00:00"^^xsd:dateTime ;
+    dcterms:created "2024-08-20T18:48:34.520231+00:00"^^xsd:dateTime ;
     dcterms:description "The USACE Strategic Management Regulations (CESI-P No. 5-5-15) defines various acronyms and terms commonly used in this regulation to describe strategic processes, terms, policy and concept of operations, associated activities, and alignment with formal responsibilities for planning, programming, budgeting, execution and control, compliance, mandates, directives, circulars, and other guidance. These terms are defined in the glossary section of the regulation." ;
-    dcterms:publisher "None" ;
+    dcterms:publisher "Department of the Army, U.S. Army Corps of Engineers" ;
     dcterms:rights "MIT" ;
     dcterms:title "U.S. ARMY CORPS OF ENGINEERS STRATEGIC MANAGEMENT CESI-P No. 5-5-15" ;
     pav:ImportedFrom "glossaries/CivilWorks/CESI-P.yaml" ;
-    pav:createdOn "2024-07-16T04:22:59.561506+00:00"^^xsd:dateTime ;
+    pav:createdOn "2024-08-20T18:48:34.520231+00:00"^^xsd:dateTime ;
     pav:createdWith "gloss" ;
     pav:wasInfluencedBy "USACE STRATEGIC MANAGEMENT CESI-P No. 5-5-15" ;
     vann:preferredNamespaceUri "https://usace-data.com/civil-works/glossary/CESI-P-5-5-15#" ;

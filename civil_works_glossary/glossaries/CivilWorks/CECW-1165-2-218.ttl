@@ -672,13 +672,13 @@ CECW-1165-2-218: a wov:Glossary,
         skos:ConceptScheme,
         voaf:Vocabulary ;
     rdfs:label "Engineering and Design USACE LEVEE SAFETY PROGRAM CECW-CW No. 1165-2-218" ;
-    dcterms:created "2024-07-16T04:22:52.266952+00:00"^^xsd:dateTime ;
+    dcterms:created "2024-08-20T18:48:27.469027+00:00"^^xsd:dateTime ;
     dcterms:description "The USACE Levee Safety Program (Circular CECW-CW No. 1165-2-218) defines various acronyms and terms commonly used in this circular to describe aspects of levee saftey, including implementation of policies, activities, roles, and responsibilities for federally authorized levees. These terms are defined in the glossary section of the circular." ;
-    dcterms:publisher "None" ;
+    dcterms:publisher "Department of the Army, U.S. Army Corps of Engineers" ;
     dcterms:rights "MIT" ;
     dcterms:title "Engineering and Design USACE LEVEE SAFETY PROGRAM CECW-CW No. 1165-2-218" ;
     pav:ImportedFrom "glossaries/CivilWorks/CECW-1165-2-218.yaml" ;
-    pav:createdOn "2024-07-16T04:22:52.266952+00:00"^^xsd:dateTime ;
+    pav:createdOn "2024-08-20T18:48:27.469027+00:00"^^xsd:dateTime ;
     pav:createdWith "gloss" ;
     pav:wasInfluencedBy "Engineering and Design USACE LEVEE SAFETY PROGRAM CECW-CW No. 1165-2-218" ;
     vann:preferredNamespaceUri "https://usace-data.com/civil-works/glossary/CECW-1165-2-218#" ;

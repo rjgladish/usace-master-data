@@ -286,13 +286,13 @@ ER-1110-2-240: a wov:Glossary,
         skos:ConceptScheme,
         voaf:Vocabulary ;
     rdfs:label "Engineering Manual 1110-2-240, Water Control Management" ;
-    dcterms:created "2024-07-16T04:27:02.906387+00:00"^^xsd:dateTime ;
+    dcterms:created "2024-08-20T18:50:50.534580+00:00"^^xsd:dateTime ;
     dcterms:description "Engineering Manual 1110-2-240, Water Control Management, defines acronyms and terms commonly used in this report, which describes policies governing water control management activities, the establishment of water control plans by the U.S. Army Corps of Engineers (USACE) at all USACE-owned and USACE-operated reservoirs, locks, dams, and other water control projects. These terms are defined in the glossary section of the report." ;
-    dcterms:publisher "None" ;
+    dcterms:publisher "Department of the Army, U.S. Army Corps of Engineers" ;
     dcterms:rights "MIT" ;
     dcterms:title "Engineering Manual 1110-2-240, Water Control Management" ;
     pav:ImportedFrom "glossaries/CivilWorks/ER-1110-2-240.yaml" ;
-    pav:createdOn "2024-07-16T04:27:02.906387+00:00"^^xsd:dateTime ;
+    pav:createdOn "2024-08-20T18:50:50.534580+00:00"^^xsd:dateTime ;
     pav:createdWith "gloss" ;
     pav:wasInfluencedBy "ER 1110-2-240 Water Control Management" ;
     vann:preferredNamespaceUri "https://usace-data.com/civil-works/glossary/ER-1110-2-240#" ;

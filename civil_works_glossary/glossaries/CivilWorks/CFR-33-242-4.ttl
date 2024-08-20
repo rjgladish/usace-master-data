@@ -32,13 +32,13 @@ CFR-33-242-4: a wov:Glossary,
         skos:ConceptScheme,
         voaf:Vocabulary ;
     rdfs:label "Code of Federal Regulations - Title 33, Chapter-II, Part 242, Section-242.4" ;
-    dcterms:created "2024-07-16T04:23:23.443914+00:00"^^xsd:dateTime ;
+    dcterms:created "2024-08-20T18:48:54.315359+00:00"^^xsd:dateTime ;
     dcterms:description "33-CFR-242.4 Term definitions are applicable throughout part 242" ;
-    dcterms:publisher "None" ;
+    dcterms:publisher "U.S. Federal Register, National Archives and Records Administration's Office of the Federal Register, and Goverment Publishing Office" ;
     dcterms:rights "MIT" ;
     dcterms:title "Code of Federal Regulations - Title 33, Chapter-II, Part 242, Section-242.4" ;
     pav:ImportedFrom "glossaries/CivilWorks/CFR-33-242-4.yaml" ;
-    pav:createdOn "2024-07-16T04:23:23.443914+00:00"^^xsd:dateTime ;
+    pav:createdOn "2024-08-20T18:48:54.315359+00:00"^^xsd:dateTime ;
     pav:createdWith "gloss" ;
     pav:wasInfluencedBy "33 CFR 242.4 Definitions" ;
     vann:preferredNamespaceUri "https://usace-data.com/civil-works/glossary/CFR-33-242-4#" ;

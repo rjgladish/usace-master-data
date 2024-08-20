@@ -2169,13 +2169,13 @@ EM-1110-1-1005: a wov:Glossary,
         skos:ConceptScheme,
         voaf:Vocabulary ;
     rdfs:label "Engineering Manual 1110-1-1005 Control and Topographic Surveying" ;
-    dcterms:created "2024-07-16T04:26:11.489463+00:00"^^xsd:dateTime ;
+    dcterms:created "2024-08-20T18:50:33.298987+00:00"^^xsd:dateTime ;
     dcterms:description "Engineering Manual 1110-1-1005, Control and Topographic Surveying, defines various acronyms and terms commonly used in this instruction to describe survey activities, including technical specifications, procedural guidance, and quality control criteria related to site plans as as-built facility mapping. These terms are defined in the glossary section of the manual." ;
-    dcterms:publisher "None" ;
+    dcterms:publisher "Department of the Army, U.S. Army Corps of Engineers" ;
     dcterms:rights "MIT" ;
     dcterms:title "Engineering Manual 1110-1-1005 Control and Topographic Surveying" ;
     pav:ImportedFrom "glossaries/CivilWorks/EM-1110-1-1005.yaml" ;
-    pav:createdOn "2024-07-16T04:26:11.489463+00:00"^^xsd:dateTime ;
+    pav:createdOn "2024-08-20T18:50:33.298987+00:00"^^xsd:dateTime ;
     pav:createdWith "gloss" ;
     pav:wasInfluencedBy "Engineering Manual 1110-1-1005 Control and Topographic Surveying" ;
     vann:preferredNamespaceUri "https://usace-data.com/civil-works/glossary/EM-1110-1-1005#" ;

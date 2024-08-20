@@ -3217,13 +3217,12 @@ ER-1110-2-1156: a wov:Glossary,
         skos:ConceptScheme,
         voaf:Vocabulary ;
     rdfs:label "ER 1110-2-1156  - Safety of Dams - Policy and Procedures" ;
-    dcterms:created "2024-07-16T13:37:41.522106+00:00"^^xsd:dateTime ;
-    dcterms:description "The USACE Safety of Dams Policies and Procedures (Engineeering Report 1110-2-1156) defines various acronyms and terms commonly used in this regulation to describe phases, types, and parts of cost products. These terms are defined in the glossary section of the regulation." ;
-    dcterms:publisher "None" ;
+    dcterms:created "2024-08-20T18:50:41.865148+00:00"^^xsd:dateTime ;
+    dcterms:publisher "Department of the Army, U.S. Army Corps of Engineers" ;
     dcterms:rights "MIT" ;
     dcterms:title "ER 1110-2-1156  - Safety of Dams - Policy and Procedures" ;
     pav:ImportedFrom "glossaries/CivilWorks/ER-1110-2-1156.yaml" ;
-    pav:createdOn "2024-07-16T13:37:41.522106+00:00"^^xsd:dateTime ;
+    pav:createdOn "2024-08-20T18:50:41.865148+00:00"^^xsd:dateTime ;
     pav:createdWith "gloss" ;
     pav:wasInfluencedBy "ER 1110-2-1156  - Safety of Dams - Policy and Procedures" ;
     vann:preferredNamespaceUri "https://usace-data.com/civil-works/glossary/ER-1110-2-1156#" ;

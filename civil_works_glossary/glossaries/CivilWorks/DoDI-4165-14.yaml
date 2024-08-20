@@ -6,12 +6,14 @@ about:
           various acronyms and terms commonly used in this regulation to describe 
           policy, responsibility assignments, and real property reporting procedures within the DoD.
           These terms are defined in the glossary section of the instruction.
+    publisher: U.S. Department of Defense
     source:
         linkType: pdf
         glossaryReferences: true
         sourceID: DoDI 4165-14
         authoritativeSource: DoDI 4165.14
-        url: https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/416514p.pdf
+        url: https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodi/416514p.pdf?ver=*
+
 terms:
 - label: Accountable Property System of Record
   altName: [ APSR ]

@@ -1,66 +1,85 @@
 # Glossary Tool Suite
+This suite of glossary documents and tools support essential technical governance activities such as defining and transforming authoritiave, source-derived glossary terms and definitions encoded as YAML document into structured glossary artifacts (SKOS).
 
-This suite of tools and glossary documents support essential technical governance activities such as defining and transforming authoritiave, source-derived glossary terms and definitions into structured glossary documents (SKOS). [glossaries/glossaries.md](Glossaries) Source metadata
+Refer to [glossaries/Glossaries.md](glossaries/Glossaries.md) to learn the details of a glossary document, including a an explaination of each property within the glossary document about, source, terms, and abbreviations sections.
 
-Artifact inputs in YAML, JSON, and XML are supported, with automated transformation to SKOS vocabularies tologies in several RDF encoding options, and automated production of reports based on the YAML,JSON,XML sources formats (using customizable Jinja2 templates).
+Glossary artifacts in YAML encodings are supported, with automated transformation to SKOS vocabularies in several RDF encoding options, and automated production of more user-friendly glossary report documents (using a customizable Jinja2 templates). JSON and XML glossary encoding is experimental.
 
-Below is an overview of the tools, and how to use them wihtin modern digital engineering CONOPS. The Glossary Tool Suite (GTS) leverages a set of makefile-based build-rules to support glossary operations including, import, revision, review, validation, and transform of digital model and governance artifacts into human and machine consumable documents. These artifacts are part of a larger governance effort to capture and navigate interconnection Civil Works knowledge as a knowledge graph. Other artifacts such as ontologies, data schema, and datasets also form this knowledge graph.
+An overview of the tools and how to use them wihtin modern digital engineering CONOPS can be found below. The command line interfaces are described below. The Glossary Tool Suite (GTS) includes a set of makefile-based build-rules to support glossary operations including, import, revision, review, validation, and transformation of digital model and governance artifacts into office documents for human consumption, and machine actionable artifacts to support automation. The SKOS glossary RDF/turtle artifacts contain foundational Uniform Resource Identifier (URI) definitions generated from the YAML source documents. These URI are a foundational part of the knowledge graph, linking graph-connected concepts  to terms and definitions extracted from authoritative sources, a.k.a Authoritative Source of Truth (ASOT). These glossary artifacts are part of a larger governance effort to capture and navigate interconnections between other aspects of Civil Works knowledge encoded into a knowledge graph. These other artifacts such as ontologies, data schema, and Civil Works datasets also contribute to this knowledge graph.
 
-## Synopsis
-
-A separate document describes the glossary schema, but 
-
-## Civil Works Glossary Operations GlossOps
+## Civil Works Glossary Operations (CW GlossOps)
 Civil Works Glosary Operations (CW GlossOps) is an early prototype of Glossary Operations (GlossOps), which is a specialized Model Operations process customized for USACE Civil Works glossary governance activities. Establshing officially sanctioned terms and definitions is an essential goverance activity within any organization, but it is particularly important within large technical organizations. Business operations produce many, highly specialized vocabularies that require precise and agreed upon definitions and interpretation to effectively communicate business functions and ensure continutity of operations.
 
-The glossaries herein are organized by authoritative sources, such as Army, DoD, Federal Regulations, Manuals, Memoranda, Circulars, or other Guidance. Terms and definitions derived from these authoritative sources of truth are often contextual, as they are inherently bound to the source document. The glossaries establish a common understanding for the meanings
-of everyday terms used across the business.
+The glossaries herein are organized by authoritative sources, i.e., Army, DoD, and Federal Regulations, Statutes, Manuals, Memoranda, Circulars, or other Guidance. Terms and definitions derived from these authoritative sources of truth are often contextual, as they are inherently bound to the source document. The glossaries establish a common understanding for the meanings of everyday terms used across the business that require a particular interpretation and meaning to effectively communication intent and consequences.
 
-Glossary terms and definitions support downstream knowledge engineering activities such as ontology creation and schema elaboration. These activities often involve the bridging of technical
-nomenclature found within engineering guidance and policy and process-oriented terminology within foundational regulations and operational guidance documents.
+The technical governance of glossary terms and definitions readily supports downstream knowledge engineering activities such as ontology creation, data schema elaboration, dataset interpretation, and data wrangling. These digital engineering activities involve bridging technical nomenclature found within engineering manuals, circulars, and standards,  with policy, procedures, and process directives within regulations and operational guidance documents. Together, this informat
 
 # Overview of Legacy Glossary Practices
 Typical glossary sources consist of business level office documents, e.g. Word, PDF, and HTML. These traditional glossary forms have proven to be unsatisfactory within modern, sustainable digital governance activities. These forms are impractical to sufficiently organize, structure, and automate the maintenance of enterprise governance knowledge. Although Office documents are useful for review activities,
 they rely too heavily on style conventions that vary widely, are too easily ignored, and difficult to, maintain, validate and automate.
 
 # Tool Summary
-loadXL - a one-time utility to consume Excel spreadsheets contained glossary terms and transform into YAML-encoded files, one glossary for each source. Thereafter, glossary revisions should
+**loadXL** - a one-time utility that consumes legacy Excel spreadsheets containing glossary terms and transform into YAML-encoded files, one glossary for each source. Thereafter, glossary revisions should
 be applied to these YAML documents, and the intermediate Excel documents archived or discarded.
 
-gloss  - Transcribles a manually revised YAML encoded glossary into a read-only RDF-encoded SKOS document suitable for graph-based processing and analytics, such a building a knowledge graph.
+**gloss**  - Transcribles a manually revised YAML encoded glossary into a read-only RDF-encoded SKOS document suitable for graph-based processing and analytics, such a building a knowledge graph.
+
+**jinja** - A simple CLI built on top of the Jinja library.
 
 ## Tools Overview
-
+All tools support --help option to describe the required and optional argumants. 
 ### 1. `gloss.py`
 `gloss.py` is a Python utility that uses glossary data classes to transform structured source glossary vocabulary documents (YAML) into RDF ontology documents. Glossaries are organized according to the Authoritative Source, and divided into three sections:
 
-About - Context concerning the source of the glossary terms, including links, title, description, and a base namespace URI used to uniquely.
+**About** - Context concerning the source of the glossary terms, including links, title, description, and a base namespace URI used to uniquely.
 
-Terms - Glossary terms, definitions, source citations, and alternative terms.
+**Terms** - Glossary terms, definitions, source citations, and alternative terms.
 
-Abbreviations - Abbreviations defined in the source document where the terms are used.
+**Abbreviations** - Abbreviations defined in the source document where the terms are used.
 
 ### 2. `jinja.py`
 `jinja.py` A Pyton tool to 'render' glossary terms and abbreviations defined within the structured document using a Jinja2 template, resulting to an HTML document. It supports input from YAML, JSON, and XML files and outputs to a specified file or stdout. Jinja2 templates are customizable to generate any text-based document format.
-
-### 3. `make`
-Makefiles are used to manage complex build dependencies by defining simple build targets. For example, upon each revision of source glossary document (i.e. yaml), an HTML, DOCX, an PDF version of the document can be automatically generated. Also an ontology derived from , along with document
-The `Makefile` provides convenient commands for common tasks, such as generated glossaries and cleaning up generated files.
 
 ## CLI Options
 
 ### `jinja.py` CLI Options
 
 `jinja.py` is the main entry point for rendering glossaries. It accepts the following command-line options:
-
 - `--input` or `-i`: Path to the input file (YAML, JSON, or XML), or stdin.
 - `--type` or `-t`: Type of the input file (`yaml`, `json`, `xml`) [required for stdin].
 - `--template` or `-t`: Path to the report template.
 - `--output` or `-o`: Output file path.
 
-### 4. `loadXL.py`
+### 3. `loadXL.py`
 
 `loadXL.py` is a script to load data from multiple-sheet Excel files into a structured format suitable for processing by the glossary tools. It's an extension for handling data sources beyond YAML, JSON, and XML.
+
+### 4. `Makefile`
+Makefiles are used to manage complex build dependencies by defining simple build targets. For example, upon each revision of source glossary document (i.e. yaml), an HTML, DOCX, an PDF version of the document can be automatically generated. Also an ontology derived from , along with document
+The `Makefile` provides convenient commands for common tasks, such as generated glossaries and cleaning up generated files.
+
+The glossops Makefile captures the build dependencies needed to build HTML documentation of the YAML glossary, or the SKOS vocabulary, or the HTML documentation from the SKOS vocabulary. 
+
+The makefile build rules employ a specific file-naming convention, illustrated through this example, which curates terms and definitions described by the 
+Code of Federal Regulations - Title 33, Chapter-II, Part 329, Section-329.4 ([CFR-33-329.4](https://www.ecfr.gov/current/title-33/chapter-II/part-329/section-329.4))
+
+|# Artifict| Derived From|Tool|
+|---------------------------------------------|-|-|
+|glossaries/CivilWorks/CFR-33-329-4.yaml|**Source** glossary derived from [CFR-33-329.4]((https://www.ecfr.gov/current/title-33/chapter-II/part-329/section-329.4))|YAML Editor|
+|glossaries/CivilWorks/CFR-33-329-4-doc.html|**Documentation** derived from CFR-33-329-4.yaml|jinja|
+|glossaries/CivilWorks/CFR-33-329-4.ttl| **SKOS** definition derived from CFR-33-329-4.yaml|gloss
+|glossaries/CivilWorks/CFR-33-329-4-ttl.html|**Documentation** derived from CFR-33-329-4.ttl|pylode or ontospy, et al|
+|glossaries/CivilWorks/CFR-33-329-4-oops.html | **Oops Report** derived from CFR-33-329-4.ttl |oop (**experimental!**)|
+
+YAML documentaion and SKOS glosarries are built using the **gloss** tool using  rules in build-rules/rules-gloss.mk.
+RDF documentaion of SKOS glosarries are built using the **pylode or ontospy** tool using  rules in build-rules/rules-rdf.mk.
+The [Oops! Onotology Pitfall Scanner](https://oops.linkeddata.es/advanced.jsp) report of the SKOS glosarries are built using the **ooops** client using  rules in build-rules/rules-rdf.mk. Ignore [OOPS! Web Service](https://oops.linkeddata.es/webservice.html) documenation, it is all wrong.
+
+## Build Targets
+In addition to build rules driven by the file convention 
+a. Type make stage-gloss to create HTML report output, and/or
+b. Type make stage-skos to create RDF output and HTML documentation, and/or
+c. Type make stage-pkg to create everything and create a package.
 
 #### Example Usage
 
@@ -204,7 +223,7 @@ terms:
                 <h1>Code of Federal Regulations - Title 33, Chapter-II, Part 329, Section-329.4</h1>
                 <div id="about" class="about">
                     <h2>About</h2>
-                    <p><strong>publisher:</strong> </p>
+                    <p><strong>publisher:</strong> "U.S. Federal Register, National Archives and Records Administration's Office of the Federal Register, and Goverment Publishing Office"</p>
                     <p><strong>namespace:</strong> https://usace-data.com/civil-works/glossary/CFR-33-329-4#</p>
                     <p><strong>prefix:</strong> CFR-33-329-4</p>
                     <p><strong>template:</strong> glossary</p>
@@ -290,6 +309,7 @@ This project is MIT licensed. See LICENSE for details.
   - **schema/**: Contains schema definitions for glossaries.
   - **tests/**: Contains test modules.
   - **tools/**: Tools related to glossary operations.
+  - **templates**: Jinja2 templates used to generate documents from YAML, JSON, or XML.
   - **util/**: Utility scripts for various tasks.
 
 - **Files**:
@@ -316,6 +336,13 @@ Each dependency is listed once along with its common usage context within projec
 - `typer`: Command-line interface creation toolkit.
 - `urllib`: Parses URLs and file paths.
 - `urllib3`: An improved version of `urllib`.
+- `pyYAML`: Defacto YAML parser
+- `strictyaml` : Experimental YAML parse to validate YAML - may deprecate
+- `xmltodict` : Converts xml to Python dictionaries
+- `jsonschema` : JSON validation
+- `ontospy` : Ontology documentation tool
+- `pylode` : Python implementation of 'lode' documention tool V 2.13 has marginal support of SKOS profile, V 3.0 does not (yet) support SKOS
+
 
 # Using Digital Glossaries to establish Authoritative Source of Truth
 The glossary tool suite follows DoD Instruction 5000.97 Digital Engineering policy, procedures and practice establishes the Authoritative Source of Truth (ASOT) for Civil Works digital engineering practices.

@@ -176,13 +176,13 @@ DoDI-5015.02: a wov:Glossary,
         skos:ConceptScheme,
         voaf:Vocabulary ;
     rdfs:label "DoDI-5015.02 Instruction Records Management Program" ;
-    dcterms:created "2024-07-16T04:25:57.862986+00:00"^^xsd:dateTime ;
+    dcterms:created "2024-08-20T18:50:28.604058+00:00"^^xsd:dateTime ;
     dcterms:description "DoD Instruction 5015.02, Records Management Program, defines various acronyms and terms commonly used in this instruction to describe policy, responsibility assignments, and records management  procedures within the DoD. These terms are defined in the glossary section of the instruction." ;
-    dcterms:publisher "None" ;
+    dcterms:publisher "U.S. Department of Defense" ;
     dcterms:rights "MIT" ;
     dcterms:title "DoDI-5015.02 Instruction Records Management Program" ;
     pav:ImportedFrom "glossaries/CivilWorks/DoDI-5015-02.yaml" ;
-    pav:createdOn "2024-07-16T04:25:57.862986+00:00"^^xsd:dateTime ;
+    pav:createdOn "2024-08-20T18:50:28.604058+00:00"^^xsd:dateTime ;
     pav:createdWith "gloss" ;
     pav:wasInfluencedBy "DoD Instruction Records Management Program" ;
     vann:preferredNamespaceUri "https://usace-data.com/civil-works/glossary/DoDI-5015.02#" ;

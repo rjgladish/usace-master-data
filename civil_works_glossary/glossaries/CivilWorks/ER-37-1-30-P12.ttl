@@ -610,13 +610,13 @@ ER-37-1-30-P12: a wov:Glossary,
         skos:ConceptScheme,
         voaf:Vocabulary ;
     rdfs:label "Financial Administration Accounting and Reporting ER 37-1-30 pub. 12 December 2019" ;
-    dcterms:created "2024-07-16T04:27:12.630845+00:00"^^xsd:dateTime ;
+    dcterms:created "2024-08-20T18:50:54.113840+00:00"^^xsd:dateTime ;
     dcterms:description "Financial Administration Accounting and Reporting ER 37-1-30, published 12 December 2019 defines acronyms and terms commonly used in this report, which describes  principles and standards for governing the design and operation of the financial/cost accounting and reporting systems for U.S. Army Corps of Engineers (USACE). These terms are defined in the glossary section of the regulation." ;
-    dcterms:publisher "None" ;
+    dcterms:publisher "Department of the Army, U.S. Army Corps of Engineers" ;
     dcterms:rights "MIT" ;
     dcterms:title "Financial Administration Accounting and Reporting ER 37-1-30 pub. 12 December 2019" ;
     pav:ImportedFrom "glossaries/CivilWorks/ER-37-1-30-P12.yaml" ;
-    pav:createdOn "2024-07-16T04:27:12.630845+00:00"^^xsd:dateTime ;
+    pav:createdOn "2024-08-20T18:50:54.113840+00:00"^^xsd:dateTime ;
     pav:createdWith "gloss" ;
     pav:wasInfluencedBy "Financial Administration Accounting and Reporting ER 37-1-30 pub. 12 December 2019" ;
     vann:preferredNamespaceUri "https://usace-data.com/civil-works/glossary/ER-37-1-30-P12#" ;

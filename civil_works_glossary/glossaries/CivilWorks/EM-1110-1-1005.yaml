@@ -15,7 +15,7 @@ about:
         url: https://www.publications.usace.army.mil/portals/76/publications/engineermanuals/em_1110-1-1005.pdf
         linkType: pdf
         anchor: '480'
-
+    publisher: Department of the Army, U.S. Army Corps of Engineers
 terms:
 - label: Absolute GPS
   altName: [Autonomous GPS]

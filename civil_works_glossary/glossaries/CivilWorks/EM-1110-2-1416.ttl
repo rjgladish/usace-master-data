@@ -1698,13 +1698,13 @@ EM-1110-2-1416: a wov:Glossary,
         skos:ConceptScheme,
         voaf:Vocabulary ;
     rdfs:label "Engineering Manual 1110-2-1416 River Hydraulics" ;
-    dcterms:created "2024-07-16T04:26:24.195511+00:00"^^xsd:dateTime ;
+    dcterms:created "2024-08-20T18:50:37.638970+00:00"^^xsd:dateTime ;
     dcterms:description "River Hydraulics Engineering Manual 1110-2-1416, defines various acronyms and terms commonly used in this manual to describe conducting river hydraulic investigations. These terms are defined in the glossary section of the manual." ;
-    dcterms:publisher "None" ;
+    dcterms:publisher "Department of the Army, U.S. Army Corps of Engineers" ;
     dcterms:rights "MIT" ;
     dcterms:title "Engineering Manual 1110-2-1416 River Hydraulics" ;
     pav:ImportedFrom "glossaries/CivilWorks/EM-1110-2-1416.yaml" ;
-    pav:createdOn "2024-07-16T04:26:24.195511+00:00"^^xsd:dateTime ;
+    pav:createdOn "2024-08-20T18:50:37.638970+00:00"^^xsd:dateTime ;
     pav:createdWith "gloss" ;
     pav:wasInfluencedBy "EM 1110-2-1416 River Hydraulics" ;
     vann:preferredNamespaceUri "https://usace-data.com/civil-works/glossary/EM-1110-2-1416#" ;

@@ -3,15 +3,16 @@ about:
     prefix: ER-1110-2-1156
     template: glossary
     title: ER 1110-2-1156  - Safety of Dams - Policy and Procedures
-    description: The USACE Safety of Dams Policies and Procedures (Engineeering Report 1110-2-1156)
-                 defines various acronyms and terms commonly used in this regulation to describe 
-                 phases, types, and parts of cost products. These terms are defined in the 
-                 glossary section of the regulation.    
+    publisher: Department of the Army, U.S. Army Corps of Engineers
     source:
         authoritativeSource: ER 1110-2-1156  - Safety of Dams - Policy and Procedures
         sourceID: ER-1110-2-1156
         linkType: pdf
         anchor: '487'
+        description: The USACE Safety of Dams Policies and Procedures (Engineeering Report 1110-2-1156)
+          defines various acronyms and terms commonly used in this regulation to describe 
+          phases, types, and parts of cost products. These terms are defined in the 
+          glossary section of the regulation.    
         parentTopic: Terms
         glossaryReferences: true
         url: https://www.publications.usace.army.mil/Portals/76/Users/182/86/2486/er_1110-2-1156.pdf
